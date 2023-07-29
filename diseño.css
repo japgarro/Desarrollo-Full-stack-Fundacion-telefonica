@@ -1,0 +1,60 @@
+body{
+  background-image: url(https://w0.peakpx.com/wallpaper/1012/686/HD-wallpaper-clearblue-blue-clear.jpg);
+  background-size: auto;
+  background-repeat: repeat-x;
+ 
+}
+.bot-nav button {
+  background-color: #0489aa; 
+  border: 1px solid rgb(36, 226, 210); 
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  float: left; 
+}
+
+.bot-nav button:not(:last-child) {
+  border-right: none; 
+}
+
+.bot-nav:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.bot-nav button:hover {
+  background-color: #3e8e41;
+}
+div{ 
+  color: black;
+}
+h1{
+  color: rgba(66, 55, 55, 0.404);
+  text-align: center;
+  font-size: 1000;
+  padding: 1%;
+  border-style: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  }
+
+
+p{
+  font-family: verdana;
+  font-size: 20px;
+  
+}
+
+h2{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1%;
+}
+section{
+  padding: 1%;
+  border-style: solid;
+  margin: 10%;
+}
+
