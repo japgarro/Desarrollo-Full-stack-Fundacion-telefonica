@@ -23,14 +23,12 @@ h6 {
     text-align: center;
 }
 
-
-.row {margin: 0 -5px;}
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.row {
+  overflow: hidden;
+  width:auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #459aaf;
+ 
 }
 
 
@@ -69,50 +67,15 @@ img {
    
   }
 
- footer{
-    display: block;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    background-color: #459aaf;
-    font-size: 20px;
-    border-radius: 2px     
-    padding-left 30px; 
- }
- #logo-digitalers{
-    width: 10%; /* La imagen ocupará el 100% del ancho de su contenedor */
-    max-width: 10%; /* La imagen no superará su tamaño original si es más pequeña que el contenedor */
-    height: auto; /* La altura se ajustará automáticamente para mantener la proporción original */
-    padding-block: 1%
-   
- }
 
  #flecha{
-    width: 2%; /* La imagen ocupará el 100% del ancho de su contenedor */
-    max-width: 2%; /* La imagen no superará su tamaño original si es más pequeña que el contenedor */
-    height: auto; /* La altura se ajustará automáticamente para mantener la proporción original */
+    width: 2%; 
+    max-width: 2%; 
+    height: auto; 
     padding-block: 1%;
     float: right; 
     
  }
- #flechafinal{
-    width: 5%; /* La imagen ocupará el 100% del ancho de su contenedor */
-    max-width: 5%; /* La imagen no superará su tamaño original si es más pequeña que el contenedor */
-    float: right; 
-    list-style-type: none;
-    margin: 100;
-    padding: 0;
-    overflow: hidden;
-    padding: 10px;
-    border-radius: 12px
-   
- }
-
-.carta{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #7ffdd7;
-    padding: 10px;
-}
 
 
  .card {
@@ -136,3 +99,33 @@ img {
 .card p {
   margin: 0;
 }
+ 
+ footer{
+  display: block;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  background-color: #459aaf;
+  font-size: 20px;
+  border-radius: 2px     
+  padding-left 30px; 
+}
+ #flechafinal{
+    width: 5%; 
+    max-width: 5%; 
+    float: right; 
+    list-style-type: none;
+    margin: 100;
+    padding: 0;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 12px
+   
+ }
+
+.carta{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #7ffdd7;
+    padding: 10px;
+}
+
