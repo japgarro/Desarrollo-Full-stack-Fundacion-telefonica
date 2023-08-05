@@ -3,21 +3,30 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom right, rgb(168, 230, 211), white);
-
+  background: #0F2027;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 }
-.container1{
+
+
+.container1 {
   justify-content: center;
   width: 100%;
-height: 10vh
-
+  height: 10vh
 }
 
+
+.calendario {
+  height: 5%;
+  width: 5%;
+
+}
 
 header figure {
   float: left;
-  
+
 }
+
 header figure img {
   border-radius: 90px;
   border: solid #000000;
@@ -79,45 +88,31 @@ nav {
   overflow: hidden;
   background-color: #006b8b;
   border-radius: 12px
-    
 }
 
-#whatsapp img{
+#whatsapp img {
   width: 100px;
   height: 25px;
 }
 
-#linkedin img{
+#linkedin img {
   width: 30px;
   height: 30px;
 }
-#gmail img{
+
+#gmail img {
   width: 80px;
   height: 30px;
 }
-
-
-nav a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  background-color: #459aaf;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-}
-
-
 
 h1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color: #7ffdd7;
-
+  background: #D3CCE3;
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+  border-radius: 12px
 }
 
 .container {
@@ -134,9 +129,7 @@ header {
   text-align: center;
 }
 
-h1 {
-  margin: 0;
-}
+
 
 h2 {
   margin-bottom: 10px;
@@ -187,11 +180,12 @@ footer {
 
 .carta {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #7ffdd7;
+  background-color: #333;
   padding: 10px;
 }
+
 img {
   width: 100px;
   height: 100px;
-  
+
 }
