@@ -95,6 +95,14 @@ nav {
   height: 25px;
 }
 
+.list-group-flush {
+  border-radius: 0;
+}
+.list-group-flush > .list-group-item {
+  border-width: 0 0 var(--bs-list-group-border-width);
+}
+
+
 #linkedin img {
   width: 30px;
   height: 30px;
@@ -190,3 +198,6 @@ img {
   height: 100px;
 
 }
+
+
+
