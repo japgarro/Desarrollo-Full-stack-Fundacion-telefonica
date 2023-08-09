@@ -8,6 +8,18 @@ body {
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 }
 
+#cabecera {
+  background-color: #7aa7a4;
+  border-radius: 40px;
+  background: -webkit-linear-gradient(to right, #98c2d4, #86b5c5, #6a97aa);
+  background: linear-gradient(to right,  #98c2d4, #86b5c5, #6a97aa);
+}
+
+#cabecera p {
+  font-weight: bold;
+
+}
+
 
 .container1 {
   justify-content: center;
@@ -90,22 +102,29 @@ nav {
   border-radius: 12px
 }
 
-#whatsapp img {
-  width: 100px;
-  height: 25px;
-}
+
 
 .list-group-flush {
   border-radius: 0;
 }
-.list-group-flush > .list-group-item {
+
+.list-group-flush>.list-group-item {
   border-width: 0 0 var(--bs-list-group-border-width);
 }
 
+#whatsapp img {
+  width: 100px;
+  height: 23px;
+}
 
 #linkedin img {
   width: 30px;
   height: 30px;
+}
+
+#drive img {
+  width: 30px;
+  height: 27px;
 }
 
 #gmail img {
@@ -141,11 +160,14 @@ header {
 
 h2 {
   margin-bottom: 10px;
-  
+  text-decoration: underline;
+  text-align: center;
+
 }
 
 h3 {
   margin: 0;
+  font-weight: bolder;
 }
 
 p {
@@ -155,7 +177,8 @@ p {
 ul {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style-type: none;
+
 }
 
 .section {
@@ -198,6 +221,7 @@ img {
   height: 100px;
 
 }
-#qrcv{
+
+#qrcv {
   float: right;
 }
